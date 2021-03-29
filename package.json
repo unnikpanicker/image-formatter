@@ -1,5 +1,5 @@
 {
-  "name": "image-formatter",
+  "name": "@unnikpanicker/image-formatter",
   "version": "1.0.0",
   "description": "image-formatter is a typescript image type conversion utility",
   "main": "build/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unnikpanicker/image-formatter.git"
+    "url": "git://github.com/unnikpanicker/image-formatter.git"
   },
   "files": [
     "build"
