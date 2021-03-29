@@ -11,7 +11,10 @@
   },
   "jest": {
     "preset": "ts-jest",
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/__tests__/**/*.{ts,tsx}"
+    ]
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,9 @@
   ],
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "bugs": {
     "url": "https://github.com/unnikpanicker/image-formatter/issues"
   },
@@ -47,5 +53,8 @@
   "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
+  },
+  "dependencies": {
+    "js-base64": "^3.6.0"
   }
 }
